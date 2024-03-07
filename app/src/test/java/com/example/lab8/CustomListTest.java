@@ -50,7 +50,11 @@ public class CustomListTest {
 
     }
 
-
+    @Test
+    public void countCityTest(){
+        MockCityList();
+        assertEquals(list.getCount(), list.countCity());
+    }
 
 
 

@@ -65,7 +65,7 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public int countCity(){
-        throw new RuntimeException("test not implemented");
+        return cities.size();
     }
 
 
